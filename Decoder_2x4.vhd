@@ -51,7 +51,7 @@ BEGIN
 			O(2) <= A AND (NOT B);
 			O(3) <= A AND B;
 		ELSE
-			O <= "UUUU";
+			O <= "0000";
 		END IF;
 
 	END PROCESS;
